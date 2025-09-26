@@ -1,0 +1,16 @@
+pallet_base_length_mm: 1200
+pallet_base_width_mm: 800
+pallet_base_height_mm: 145
+max_total_height_mm: 1800
+max_weight_kg: 500
+overhang_mm: 20
+height_includes_base: true
+excel_encoding: "utf-8"
+suggestions_mode: "all_fit_by_height"
+solver:
+  time_limit_sec: 120
+  max_pallets_hint: null
+  mip_gap: 0.0
+logging:
+  level: "INFO"
+  to_file: true
